@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
     <link rel="stylesheet" href="../css/styles.css">
-
 </head>
 
 <body>
-    <div class="container-welcome">
-        <h2>Welcome!</h2>
-        <p>You have successfully logged in.</p>
+    <div class="container container--welcome">
+        <h2 class="welcome__title">Welcome!</h2>
+        <p class="welcome__message">You have successfully logged in.</p>
     </div>
 </body>
 

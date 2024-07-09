@@ -13,41 +13,32 @@ body {
   flex-direction: column;
   width: 400px;
 }
-
-.form-container {
+.container__form-container {
   background: rgb(48, 47, 47);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+.container--welcome {
+  text-align: center;
+  background-color: rgb(48, 47, 47);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-h1 {
+.form-container__title {
   margin-bottom: 20px;
   color: #f07c0f;
   text-align: center;
 }
-
-.input-group {
+.form-container__input-group {
   margin-bottom: 15px;
   margin-right: 30px;
   margin-left: 20px;
 }
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: white;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-button {
+.form-container__button {
   width: 20%;
   padding: 10px;
   background-color: #f07c0f;
@@ -57,31 +48,33 @@ button {
   margin-left: 273px;
   cursor: pointer;
 }
-button:hover {
+.form-container__button:hover {
   background-color: #c0630c;
 }
 
-.error-message {
+.input-group__label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+.input-group__input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.input-group__error-message {
   color: rgb(255, 0, 0);
   font-size: 15px;
 }
 
-.container-welcome {
-  text-align: center;
-  background-color: rgb(48, 47, 47);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-p {
-  margin: 0;
-  font-size: 1.2em;
-  color: white;
-}
-
-h2 {
+.welcome__title {
   margin: 0 0 10px;
   font-size: 2em;
   color: #f07c0f;
+}
+.welcome__message {
+  margin: 0;
+  font-size: 1.2em;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

@@ -23,22 +23,23 @@ require_once "../php/includes.php";
 
 <body>
     <div class="container">
-        <div class="form-container" id="login-form">
-            <h1>Login</h1>
+        <div class="container__form-container" id="login-form">
+            <h1 class="form-container__title">Login</h1>
             <form method="POST" id="login">
                 <input type="hidden" name="action" value="login">
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
-                    <span id="email-error" class="error-message"></span>
-                </div>
-                <div class="input-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="login-password" name="password" placeholder="Enter your password"
+                <div class="form-container__input-group">
+                    <label for="email" class="input-group__label">Email</label>
+                    <input type="email" class="input-group__input" id="email" name="email" placeholder="abc@gmail.com"
                         required>
-                    <span id="password-error" class="error-message"></span>
+                    <span id="email-error" class="input-group__error-message"></span>
                 </div>
-                <button type="submit">Login</button>
+                <div class="form-container__input-group">
+                    <label for="password" class="input-group__label">Password</label>
+                    <input type="password" class="input-group__input" id="login-password" name="password"
+                        placeholder="Enter your password" required>
+                    <span id="password-error" class="input-group__error-message"></span>
+                </div>
+                <button type="submit" class="form-container__button">Login</button>
             </form>
         </div>
     </div>
