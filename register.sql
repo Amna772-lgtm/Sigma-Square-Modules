@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Jul 08, 2024 at 06:08 AM
+-- Generation Time: Jul 08, 2024 at 06:28 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,7 +40,6 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`) VALUES
 (1, 'abc', 'hinazaniz@gmail.com', '$2y$10$2ytKe6kNNuTYWcg2XjUY5OPES7533BUiUHCS/KWBXk7bcYHt0FG3.'),
-(2, 'amna', 'amna@gmail.com', 'Rani123@'),
 (3, 'amna', 'abc@gmail.com', '$2y$10$dHJ28ZnL3MKKhYCHSHeafuDFJRKuV5o6kS5cwrsRMuh4Zxwl1E7Ki'),
 (4, 'maham', 'maham@gmail.com', '$2y$10$HgzSpw6g/w286A8ue07Nreha9BkXop.Z9MG0drcwwsrENWVMcfY4W');
 
